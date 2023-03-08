@@ -1,0 +1,2 @@
+train_data.posts,train_length=clear_text(train_data)
+test_data.posts,test_length=clear_text(test_data)
