@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Accuracy scores for the two models
+lr_acc = 0.859
+xgb_acc = 0.774
+
+# Create a bar chart
+plt.bar(['Logistic Regression', 'XGBoost'], [lr_acc, xgb_acc], color=['blue', 'orange'])
+
+# Set the title and axis labels
+plt.title('Model Accuracy Comparison')
+plt.xlabel('Model')
+plt.ylabel('Accuracy')
+
+# Show the plot
+plt.show()
